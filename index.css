@@ -1,0 +1,169 @@
+body {
+    padding:0;
+    margin: 0;
+    color: #0E1C2B;
+    font-family: 'Assistant', sans-serif;
+}
+
+.navbar {
+border-radius: 30px;
+background: rgba(54, 54, 54, 0.3);
+backdrop-filter: blur(10px);
+width:300px;
+color: #0E1C2B;
+
+}
+
+.nav-link {
+    color: #0E1C2B;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Assistant', sans-serif;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Assistant', sans-serif;
+}
+.links {
+color: var(--text-color, #0E1C2B);
+font-family: 'Assistant', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #0E1C2B
+}
+.link hover {
+width: 75px;
+height: 38px;
+flex-shrink: 0;
+}
+
+.name{
+display: flex;
+width: 1106px;
+flex-direction: column;
+flex-shrink: 0;
+color: #0E1C2B;
+text-align: center;
+font-family: 'Assistant', sans-serif;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+span {
+    color: #366BF5
+}
+
+.text {
+display: flex;
+text-align:center;
+width: 677px;
+flex-direction: column;
+flex-shrink: 0;
+
+}
+
+button{
+padding: 6px 30px;
+margin-top: 5px;
+align-items: flex-start;
+background-color: #366BF5;
+color:white;
+border:none;
+border-radius: 22px;
+text-align: center;
+align-items: center;
+}
+
+.buttonsoft {
+    background-color:#0E1C2B;
+}
+.diploma {
+    border-radius: 17.565px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 3.5129446983337402px 10px 0px rgba(160, 163, 171, 0.50);
+    
+}
+
+.achiv {
+color:  #0E1C2B;
+font-family: 'Assistant', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+}
+
+
+.form-group {
+    width:49%;
+    border-radius: 15px;
+}
+.projecttitle {
+    font-weight: bold;
+    padding-top:10px;
+}
+.projects {
+  padding-bottom:20px  
+}
+
+.social a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+
+  .social a img {
+    width: 56px;
+  }
+
+ 
+  .social a.ln:hover img {
+    content: url('lnhover.png');
+  }
+
+  .social a.git:hover img {
+    content: url('githubhover.png');
+  }
+
+.lang{
+  background-color: white; 
+  color:black;
+}
+
+.projects {
+    position: relative;
+    display: inline-block;
+  }
+
+  .diploma {
+    width: 100%;
+    height: auto;
+  }
+
+  .progs {
+    position: absolute;
+    top: 350px;
+    left: 5px;
+  }
+
+  .lang {
+    margin-right: 5px;
+  }
