@@ -46,12 +46,16 @@ font-weight: 400;
 line-height: normal;
 color: #0E1C2B
 }
+
 .link hover {
 width: 75px;
 height: 38px;
 flex-shrink: 0;
 }
 
+.hi row {
+   margin-top: 50px;
+}
 .name{
 display: flex;
 width: 1106px;
