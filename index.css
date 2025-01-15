@@ -37,6 +37,16 @@ h2 {
     font-size: 46px;
     font-family: 'Assistant', sans-serif;
 }
+
+.main__button {
+  margin-top: 10px; 
+  padding-bottom: 25px;
+}
+
+.main__image {
+  margin-top:  0
+}
+
 .links {
 color: var(--text-color, #0E1C2B);
 font-family: 'Assistant', sans-serif;
@@ -97,10 +107,25 @@ font-size: 12px;
 box-shadow: 0 0 15px rgba(0,0,0,.25);
 }
 
+button a {
+  font-size: 18px;
+}
+
 .buttonsoft {
     background-color:#0E1C2B;
 }
 
+.rest {
+  background-color: #F7F8FA;
+}
+.rest_hardskills, .rest_softskills {
+  margin-bottom:10px; 
+  margin-top:10px; 
+  padding-top:20px
+}
+.rest_hardskills h2,  .rest_softskills h2{
+  border-top: 1px solid;
+}
 
 .diploma {
     border-radius: 17.565px;
@@ -116,9 +141,12 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-align: left;
+line-height: 1;
 }
 
-
+.prices li {
+  font-size:18px;
+}
 .form-group {
     width:49%;
     border-radius: 15px;
